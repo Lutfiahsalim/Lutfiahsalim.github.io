@@ -1,0 +1,175 @@
+body {
+    background-color: #a49073 ;
+    margin: 20px 30px 20px 20px;
+
+}
+
+button {
+    position: relative;
+    background-color: #613318;
+    border: none;
+    color: #eacd98;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: wheat;
+    transition: 0,4 s;
+    transform-style: preserve-3d;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color : #613318;
+    text-align: center;
+    background-color: #eacd98;
+    padding: 10px;
+}
+
+.skill {
+    background-color: #a49073;
+    color: #613318;
+    padding: none;
+    margin-top: 0%;
+    border-radius: 15px;
+}
+
+.menu {
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 25;
+    font-size: 20px;
+}
+
+.describe {
+    color: #eacd98;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.ul {
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: #613318 solid 2px;
+}
+
+.level {
+    background-color: #8F3B1B;
+    color: #eacd98;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Riwayat {
+        margin-top: 40px;
+        margin-left: 40px;
+        border-collapse: separate;
+        width: 75%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 15px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border-style: dashed; 
+    color: #ddaf69a8 ;
+
+}
+
+.year {
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    font-size: 18px;
+    
+}
+
+.Riwayat tr{
+        background-color: #ddaf69a8;
+        color: #a49073;
+        padding: 25px 20px;
+    }
+.Riwayat td{
+        padding: 20px 15px;
+        color: #eacd98;
+    
+    }
+.Riwayat tr:nth-child(even){
+        background-color: #a49073;
+        text-align: center;
+    }
+.Riwayat tr:nth-child(odd){
+        background-color:#8F3B1B;
+        text-align: center;
+    }
+
+.history {
+    background-color: #ddaf69a8;
+    text-align: center;
+    padding: 20px;
+    color: #8F3B1B;
+}
+
+hr {
+    background-image:url(img2.png)
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #eacd98;
+    background-color: #8F3B1B;
+    text-align: center;
+    font-style: normal;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bisnis {
+   padding-left: 30%;
+   
+}
+
+.last {
+    background-color: #8F3B1B;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #eacd98;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.thankyou {
+    background-image: url(img2.png);
+    text-align: center;
+    text-decoration: double;
+    font-family: serif;
+    font-size: 20px;
+    color: wheat;
+    padding: 20px;;
+}
+
+

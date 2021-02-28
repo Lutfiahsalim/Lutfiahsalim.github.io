@@ -1,0 +1,122 @@
+body {
+  background-color: #a49073;
+  margin: 20px 30px 20px 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  color: wheat;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  font-weight: bold;
+  background-image: url(img2.png);
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: #613318;
+  text-align: center;
+  background-color: #eacd98;
+  padding: 20px;
+}
+
+.img1 {
+  size: 60px;
+  background-color: #a49073;
+  border-radius: 30px;
+  float: right;
+  margin: 20px;
+  padding-right: 10%;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #613318;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.sosmed {
+  display: inline;
+  background-image: url(img4.png);
+  border: none;
+  color: #613318;
+  padding: 5px 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  font: size 14px;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  background-color: #eacd98;
+  border: none;
+  color: #613318;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px 1, 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: wheat;
+  transition: 0, 4 s;
+  transform-style: preserve-3d;
+}
+
+hr {
+  background-image: url(img2.png);
+}
+
+input[type="text"],
+textarea {
+  background-color: wheat;
+  outline: none;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  border-radius: 3px;
+  border: solid 2, 5px #eacd98;
+  transition: all 0.4s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  background-color: wheat;
+  border: solid 2px #613318;
+  transition: all 0.4s;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
+.submit {
+  background-color: #eacd98;
+  color: #613318;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  size: 25px;
+  border: #a49073 2px;
+  transition: 0, 3s;
+  padding: 10px;
+  margin-left: 15px;
+}

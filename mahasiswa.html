@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" manifest="latihan.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Mahasiswa</title>
+    <link rel="stylesheet" href="mahasiswa.css">    <!--CSS-->
+ 
+</head>
+<body>
+
+    <!--Go to page Static javaScript-->
+    <div class="submit">
+        <form method="GET" action="Latihan1js.html">
+          <button class="button">Statistic JavaScript</button>
+        </form>
+    </div>
+
+    <h1>FORM MAHASISWA</h1>
+
+        <h2>R E G I S T R A S I   M A H A S I S W A</h2>
+
+    <div class="box">
+        
+        <div class="tabel">
+                               
+            <form id='frmUtama'>
+
+                        <label for="nama">Nama:</label>
+                        <input id="nama" name="nama" type="text" maxlength="50" required/> <br>
+   
+                        <label for="nim">NIM:</label>
+                        <input id="nim" name="nim" type="text" maxlength="20" required/> <br>
+                
+                        <label for="prodi">Prodi:</label>
+                        <input id="prodi" name="prodi" type="text" maxlength="30"required/> <br>
+                 
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="text" maxlength="30" required /> <br>
+
+                        <div class="daftar">
+                            <input id='btnTambah' type="submit" value="Daftar" />
+                        </div>
+                        
+            </form>
+        </div>
+    </div>
+
+    <h2>M A H A S I S W A   T E R D A F T A R</h2>
+        <div class="box">
+            <table class="list">
+                <thead>
+                    <tr class="title">
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>Prodi</th>
+                        <th>Email</th>
+                        <th></th>
+                    </tr>         
+                </thead>
+                <tbody id="tabel">
+                </tbody>
+            </table>            
+        </div>
+
+        <h2>P E M B E R I T A H U A N</h2>
+        <div class="box">
+            <div id="pesan">
+                </div>
+        </div>
+        
+
+        <script src="mahasiswa.js"></script> <!--Java Script-->
+   
+</body>
+</html>
